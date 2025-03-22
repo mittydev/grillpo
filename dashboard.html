@@ -1,0 +1,95 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poky Dashboard</title>
+    <link rel="icon" href="pfp.png" type="image/x-icon">
+    <style>
+        :root {
+            --primary: #f97316;
+            --gradient: linear-gradient(195deg, rgb(255, 121, 22) 0%, rgb(255, 158, 35) 100%);
+        }
+        
+        body {
+            margin: 0;
+            font-family: 'Times New Roman', Times, serif; /* Changed to a more formal font */
+            background: #fff;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .heading {
+            font-size: 3.5rem;
+            background: var(--gradient);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 1.5rem;
+            text-align: center;
+        }
+
+        .footer {
+            background: var(--gradient);
+            color: white;
+            padding: 2rem 0;
+            width: 100%;
+            position: fixed;
+            bottom: 0;
+        }
+
+        .footer-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 1rem;
+        }
+
+        .footer-title {
+            font-size: 2rem;
+            margin: 0;
+            color: white;
+        }
+
+        .footer-copyright {
+            font-size: 0.9rem;
+            opacity: 0.9;
+        }
+
+        .dots {
+            font-size: 2rem;
+            color: var(--primary);
+            animation: blink 1.5s infinite;
+            margin-top: -20px;
+        }
+
+        .twitter-icon {
+            width: 24px;
+            height: 24px;
+            margin-top: 20px;
+            fill: var(--primary);
+        }
+
+        @keyframes blink {
+            0%, 100% { opacity: 0; }
+            50% { opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+    <h1 class="heading">Dashboard coming soon</h1>
+    <div class="dots">...</div>
+
+        <img class="twitter-icon" src="pfp.png" alt="Twitter Icon" />
+
+    <footer class="footer">
+        <div class="footer-content">
+            <h2 class="footer-title">Poky</h2>
+            <p class="footer-copyright">© 2025 Poky. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html></html>
